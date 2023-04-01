@@ -1,0 +1,24 @@
+{
+	"name":"jackminh/ack",
+	"type":"project",
+	"description":"test project",
+	"license":"MIT",
+	"authors":[
+		{
+			"name" : "jackminh",
+			"email":"jackminh@outlook.com"
+		}
+		
+	],
+	"require":{
+		"php":"~5.5",
+		"monolog/monolog":"~1.27",
+		"tinify/tinify": "^1.6"
+	},
+	"require-dev":{
+		"phpunit/phpunit":"~4.8"
+	},
+	"autoload":{
+		"classmap":["Compression"]
+	}
+}
