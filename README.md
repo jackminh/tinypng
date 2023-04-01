@@ -8,7 +8,7 @@
 3.每个app key每个月可以免费压缩500张图片
 
 ### 安装使用
-1. git clone https://github.com/jackminh
+1. git clone https://github.com/jackminh/tinypng.git 
 2. 执行composer install
 3. composer dump-autoload
 4. 配置config/tinypng.php,配置正确的app key
